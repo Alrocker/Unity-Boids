@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Scripts/Boids/Wiese_Boids.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0

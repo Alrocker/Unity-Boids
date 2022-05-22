@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80e083655a0fe8f44b397fe418f78684, type: 3}
+  m_Name: Scenario_Boid
+  m_EditorClassIdentifier: 
+  droneGroupings:
+  - dronePrefab: {fileID: 5869973016114955293, guid: 806f09b632211444889ed7616861f3d5,
+      type: 3}
+    numDrones: 10
+    spawnPointNum: 0
+    timeBetweenSpawningDrone: 1
+  - dronePrefab: {fileID: 5869973016114955293, guid: 806f09b632211444889ed7616861f3d5,
+      type: 3}
+    numDrones: 20
+    spawnPointNum: 1
+    timeBetweenSpawningDrone: 0.5
+  - dronePrefab: {fileID: 5146737007793807427, guid: e56a5f125e79004408a43efc0822fe66,
+      type: 3}
+    numDrones: 5
+    spawnPointNum: 2
+    timeBetweenSpawningDrone: 0.5
+  timeBetweenSpawningGrouping: 2
