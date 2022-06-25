@@ -22,8 +22,8 @@ My previous boid implementations controlled position. This iteration changes the
 - Everything from the previous "Earliest Implementation" and "Without Physics" videos
 - Transitioning to a more open environment, including a floor, trees, buildings, etc.
 - More advanced (but not finished) collider detection to avoid targets, other boids, and a general environment. This is my next goal
-- Boids not only have different weight sets, but can change state to swap among these established weight sets. I hope to fine-tune this along with collision avoidance in   my next udpate.
-  -> The red boid target a set object and ignores surrounding boids, and is in the "enemy" faction
-  -> Blue boids are in the "ally" faction, and free roam until approaching the enemy red boid. Upon doing so, blue boids become...
-  -> Yellow boids are in the "ally" faction, and actively avoid the enemy red boid. If they contact wandering blue boids, the blue boids are alerted of the red boid's        presence and become...
-  -> Green boids are in the "ally" faction, and try to target and ram the red boid. They will group with other green boids in this task.
+- Boids not only have different weight sets, but can change state to swap among these established weight sets. I hope to fine-tune this along with collision avoidance in   my next update.
+  - The red boid target a set object and ignores surrounding boids, and is in the "enemy" faction
+  - Blue boids are in the "ally" faction, and free roam until approaching the enemy red boid. Upon doing so, blue boids become...
+  - Yellow boids are in the "ally" faction, and actively avoid the enemy red boid. If they contact wandering blue boids, the blue boids are alerted of the red boid's   presence and become...
+  - Green boids are in the "ally" faction, and try to target and ram the red boid. They will group with other green boids in this task.
