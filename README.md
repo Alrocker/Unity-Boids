@@ -1,6 +1,10 @@
 # Unity-Boids
 
-This is a brief showing of my work on the Boid's algorithm. To showcase my work, I have included here 3 videos showing my overall progress on my work:
+This is a brief showing of my work on the Boid's algorithm. This uses Unity version 2020.3.26f1, using the HD Render Pipeline (although nothing in this projhect really warrants or requires this).
+
+Most of the original design philosophy comes from https://eater.net/boids and the Boids algorithm creator, Craig Reynolds, and his paper: https://www.semanticscholar.org/paper... .
+
+To showcase my work, I have included 3 videos showing my overall progress on my work.
 
 # Earliest-Implementation
 https://user-images.githubusercontent.com/34142204/174691318-da449989-c1f9-4f3a-b699-3197dd97a52c.mp4
